@@ -86,3 +86,8 @@ NOTES.md
 notes.md
 TODO.md
 todo.md
+
+# API Keys and sensitive config
+config.properties
+*.properties
+!gradle-wrapper.properties

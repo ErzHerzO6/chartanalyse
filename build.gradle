@@ -32,8 +32,9 @@ dependencies {
 }
 
 application {
-    mainClass = 'com.chartanalyse.App'
+    mainClass = 'com.chartanalyse.AlphaVantageExample'
 }
+
 
 tasks.named('test') {
     useJUnitPlatform()

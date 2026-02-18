@@ -11,10 +11,11 @@ import java.util.List;
 public class App {
     public static void main(String[] args) {
         try {
-            System.out.println("=== S&P 500 Daten von Yahoo Finance ===\n");
+            System.out.println("=== Aktiendaten von Yahoo Finance ===\n");
             
             // 1. Aktuelle Daten holen
-            Stock stock = YahooFinance.get("^GSPC"); // S&P 500 Index
+            // Probiere verschiedene Symbole: AAPL, MSFT, GOOGL, TSLA, SPY
+            Stock stock = YahooFinance.get("AAPL"); // Apple Inc.
             
             System.out.println("Symbol: " + stock.getSymbol());
             System.out.println("Name: " + stock.getName());
